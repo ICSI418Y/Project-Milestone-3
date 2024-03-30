@@ -1,30 +1,47 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 03/30/2024
+    Class: ICSI 418 - Software Engineering
+    Project: Quiztopia
+-->
+
+<!-- this signupPageMockup html file is a mockup of the UI for the signup page for our Quiztopia site. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Quiztopia - Signup</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="..\Logo\logo_test_transparent.svg">
-    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=no">
+    <link rel="stylesheet" href="styles.css"> <!-- adds custom styles to the page using external css file. -->
+    <link rel="icon" href="..\Logo\logo_test_transparent.svg"> <!-- adds custom logo. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=no"> <!-- makes the site scalable based on screen size. -->
 </head>
 <body class="background">
 
+<!--
+    this input div has the input fields and buttons for signing up to the site.
+-->
+
 <div class="center">
     <h3>Signup:</h3>
-    Email: <input class="inputBoxSizes" type="text" id="emailInput" name="" value="">
+    Email: <input class="inputBoxSizes" type="text" id="emailInput" name="" value="" placeholder="enter email">
     <br>
     <br>
-    Username: <input class="inputBoxSizes" type="text" id="usernameInput" name="" value="">
+    Username: <input class="inputBoxSizes" type="text" id="usernameInput" name="" value="" placeholder="enter username">
     <br>
     <br>
-    Password: <input class="inputBoxSizes" type="password" id="passwordInput" name="" value="">
+    Password: <input class="inputBoxSizes" type="password" id="passwordInput" name="" value="" placeholder="enter password">
     <br>
     <br>
-    Re-enter Password: <input class="inputBoxSizes" type="password" id="passwordReInput" name="" value="">
+    Re-enter Password: <input class="inputBoxSizes" type="password" id="passwordReInput" name="" value="" placeholder="re-enter password">
     <br>
     <br>
     <input class="createAccountButtonSpacing" type="button" id="loginButton" name="" value="Create Account">
 </div>
+
+<!--
+    this logo div has the logo for the site as part of the design.
+-->
 
 <div class="logoSpacingSignupPage">
     <img src="..\Logo\logo_test_transparent.svg" alt="" width="600" height="600">
